@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identify Your Greenery</title>
+ <script>
+    function redirectToSecondPage() {
+      window.location.href = 'second.html';  // Change this to your second page's filename
+    }
+  </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf6e2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 120px;
+        }
+        .text-section {
+            max-width: 400px;
+        }
+        h1 {
+            color: #1a4012;
+            font-size: 58px;
+            font-weight: bold;
+        }
+        p {
+            color: #3c6e47;
+        }
+        .button {
+            background-color: #4c9a2a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .button {border-radius: 4px;}
+	.button {width: 300px;}
+        .button:hover {
+            background-color: #3a7c1e;
+        }
+        .image-section img {
+            width: 450px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Identify Your Greenery Today!</h1>
+            <p>Upload a photo and receive instant plant identification and care tips.</p>
+            <button class="button" onclick="redirectToSecondPage()">Start Identifying Now</button>
+        </div>
+        <div class="image-section">
+            <img src="C:\Users\VISHAL\OneDrive\Documents\ASOIT\vs\vishal\App\website\plant-image.jpg">
+        </div>
+    </div>
+</body>
+</html>
